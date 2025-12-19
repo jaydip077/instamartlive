@@ -1,10 +1,12 @@
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instamart Clone</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="asstets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-white text-gray-900">
 
@@ -17,19 +19,20 @@
                 <!-- Logo -->
                 <a href="#" class="flex items-center gap-2 group select-none">
                     <div class="w-10 h-10 bg-brand-orange rounded-xl flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            
+                       <img src="d:\project-2\image\swiggy.png" alt="swiggy Logo" width="45" height="15">
                     </div>
-                    <span class="text-2xl font-bold text-gray-800 tracking-tight leading-none pt-1">instamart</span>
+                    <span class="text-2xl font-bold text-blue-700 tracking-tight leading-none pt-1">instamart</span>
                 </a>
                 
                 <!-- Location Selector -->
                 <div class="hidden md:flex flex-col leading-tight cursor-pointer pl-6 border-l border-gray-200 py-1">
                     <div class="flex items-center gap-1.5 text-blue-600 hover:text-blue-700 transition-colors">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-crosshair"><circle cx="12" cy="12" r="10"/><line x1="22" x2="18" y1="12" y2="12"/><line x1="6" x2="2" y1="12" y2="12"/><line x1="12" x2="12" y1="6" y2="2"/><line x1="12" x2="12" y1="22" y2="18"/></svg>
+                      
                         <span class="font-bold text-base underline decoration-dashed decoration-1 underline-offset-4">Add your location</span>
                     </div>
                     <div class="flex items-center gap-1 mt-1">
-                       <button command="show-modal" commandfor="location"> <span class="text-sm text-gray-400 font-medium">To see items in your area</span></button>
+                       <button command="show-modal" commandfor="location"> <span class="text-sm text-gray-400 font-medium hover:text-blue-700">To see items in your area</span></button>
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down text-blue-600"><path d="m6 9 6 6 6-6"/></svg>
                         
                       </div>
@@ -79,7 +82,7 @@
                 <!-- Card 1: Sunflower Oil -->
                 <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
-                        <img src="https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?auto=format&fit=crop&q=80&w=300" alt="Sunflower Oil" class="h-40 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
+                        <img src="d:\project-2\image\sunflower oil.avif" alt="Sunflower Oil" class="h-40 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                         <!-- Add Button -->
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
@@ -112,7 +115,7 @@
                 <!-- Card 2: Eggs -->
                 <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
-                        <img src="https://images.unsplash.com/photo-1598965402089-897ce52e8355?auto=format&fit=crop&q=80&w=300" alt="Eggs" class="h-32 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
+                        <img src="d:\project-2\image\fresh eggs.avif" alt="Eggs" class="h-32 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                         </button>
@@ -142,7 +145,7 @@
                 <!-- Card 3: Curd -->
                 <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
-                        <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&q=80&w=300" alt="Curd" class="h-36 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
+                        <img src="d:\project-2\image\nandini curd.avif" alt="Curd" class="h-36 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                         </button>
@@ -170,7 +173,7 @@
                 <!-- Card 4: Gold Winner Oil -->
                 <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
-                        <img src="https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?auto=format&fit=crop&q=80&w=300" alt="Oil" class="h-40 object-contain mix-blend-multiply hue-rotate-15 group-hover:scale-105 transition-transform duration-300">
+                        <img src="d:\project-2\image\gold winner refined sunflower oil.avif" alt="Oil" class="h-40 object-contain mix-blend-multiply hue-rotate-15 group-hover:scale-105 transition-transform duration-300">
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                         </button>
@@ -200,7 +203,7 @@
                 <!-- Card 5: Lays -->
                 <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
-                        <img src="https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&q=80&w=300" alt="Chips" class="h-36 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
+                        <img src="d:\project-2\image\lay's hot n sweet chips.avif" alt="Chips" class="h-36 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                         </button>
@@ -228,7 +231,7 @@
                 <!-- Card 6: Green Chilli -->
                 <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1574315042621-5039f50e0fa3?auto=format&fit=crop&q=80&w=300" alt="Chilli" class="w-full h-full object-cover mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
+                        <img src="d:\project-2\image\green chilli.avif" alt="Chilli" class="w-full h-full object-cover mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                         </button>
@@ -258,7 +261,7 @@
                  <!-- Card 7: Onion -->
                  <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1596541223130-5d31a73fb6c6?auto=format&fit=crop&q=80&w=300" alt="Onion" class="w-full h-full object-cover mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
+                        <img src="d:\project-2\image\onion.avif" alt="Onion" class="w-full h-full object-cover mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                         </button>
@@ -288,7 +291,7 @@
                 <!-- Card 8: Banana -->
                 <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
-                         <img src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&q=80&w=300" alt="Banana" class="h-32 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
+                         <img src="d:\project-2\image\robusta banana.avif" alt="Banana" class="h-32 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                          <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                         </button>
@@ -317,7 +320,7 @@
 
                  <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
-                         <img src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&q=80&w=300" alt="Banana" class="h-32 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
+                         <img src="d:\project-2\image\robusta banana.avif" alt="Banana" class="h-32 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                          <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                         </button>
