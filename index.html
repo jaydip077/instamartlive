@@ -8,12 +8,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="asstets/css/style.css">
 </head>
-<body class="bg-white text-gray-900">
+<body class="bg-white text-gray-900 overflow-x-hidden">
 
     <!-- Header -->
     <header class="sticky top-0 z-50 w-full bg-white shadow-sm border-b border-gray-100  ">
-        <div class="min-w-[450] mx-auto px-4 sm:px-2 h-20 flex-row lg:px-8 h-24 flex items-center justify-between gap-8 ">
-            
+      <div class="w-full px-4 lg:max-w-[1400px] lg:mx-auto lg:px-8 h-20 lg:h-24 flex items-center justify-between gap-4">            
             <!-- Logo & Location -->
             <div class="flex items-center gap-10 ">
                 <!-- Logo -->
@@ -65,7 +64,7 @@
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-[1400px] mx-auto px-4 lg:px-8 py-8 space-y-12 pb-20">
+    <main class="w-full lg:max-w-[1400px] mx-auto px-4 lg:px-8 py-8 space-y-12 pb-20">
 
         <!-- Section: Hot Deals -->
         <section>
@@ -77,9 +76,7 @@
             </div>
 
             <!-- Horizontal Scroll Container -->
-           <div class="flex gap-4 sm:gap-6 overflow-x-auto hide-scroll pb-4 -mx-2 px-2">
-
-                
+          <div class="flex gap-4 overflow-x-auto hide-scroll pb-4 px-1">                
                 <!-- Card 1: Sunflower Oil -->
                 <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
@@ -114,7 +111,7 @@
                 </div>
 
                 <!-- Card 2: Eggs -->
-                <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
+                <div class="min-w-[140px] sm:min-w-[180px] sm:w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
                         <img src="https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/ciw/2025/12/17/26555ff2-5564-4c6c-ba6b-2c2a7cb5a107_Z14YBOL4CM_MN_17122025.png" alt="Eggs" class="h-32 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
@@ -144,7 +141,7 @@
                 </div>
 
                 <!-- Card 3: Curd -->
-                <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
+                <div class="min-w-40 sm:min-w-[180px]  sm:w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
                         <img src="https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/ciw/2025/12/17/323eaf43-633a-42aa-af31-90458e38e28d_ADAPHQI84A_MN_16122025.png" alt="Curd" class="h-36 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
@@ -172,7 +169,7 @@
                 </div>
 
                 <!-- Card 4: Gold Winner Oil -->
-                <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
+                <div class="min-w-40 sm:min-w-[180px]  sm:w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
                         <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQrvtR7CtNOZXEawOpbtDbIP8AqteD1uTBu0aN2PCgMrwO81MxKn4AI8CpseaT6aKJ692d-nYbsw9qcmoIIR2lQWSIsdkxyo4WqcIrFeY3a_qHNKP9uSsgr" alt="Oil" class="h-40 object-contain mix-blend-multiply hue-rotate-15 group-hover:scale-105 transition-transform duration-300">
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
@@ -202,7 +199,7 @@
                 </div>
 
                 <!-- Card 5: Lays -->
-                <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
+               <div class="min-w-40 sm:min-w-[180px]  sm:w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
                         <img src="https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2024/8/1/2f9d6d96-f2a5-4105-8ba6-d62ea2139213_5445_1.png" alt="Chips" class="h-36 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
@@ -230,7 +227,7 @@
                 </div>
 
                 <!-- Card 6: Green Chilli -->
-                <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
+                <div class="min-w-40 sm:min-w-[180px]  sm:w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3 overflow-hidden">
                         <img src="https://fruitboxco.com/cdn/shop/products/VG-CL-20_800x.jpg?v=1588920882 " alt="Chilli" class="w-full h-full object-cover mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
@@ -260,7 +257,7 @@
                 </div>
 
                  <!-- Card 7: Onion -->
-                 <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
+                 <div class="min-w-40 sm:min-w-[180px]  sm:w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3 overflow-hidden">
                         <img src="https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2024/8/1/2f9d6d96-f2a5-4105-8ba6-d62ea2139213_5445_1.png" alt="Onion" class="w-full h-full object-cover mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                         <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
@@ -290,7 +287,7 @@
                 </div>
 
                 <!-- Card 8: Banana -->
-                <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
+                <div class="min-w-40 sm:min-w-[180px]  sm:w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
                          <img src="asstets/images/robusta banana.avif" alt="Banana" class="h-32 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                          <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
@@ -319,7 +316,7 @@
                     </div>
                 </div>
 
-                 <div class="min-w-[180px] w-[180px] flex flex-col group cursor-pointer">
+                 <div class="min-w-40 sm:min-w-[180px]  sm:w-[180px] flex flex-col group cursor-pointer">
                     <div class="relative h-[200px] w-full bg-white rounded-2xl flex items-center justify-center mb-3">
                          <img src="asstets/images/robusta banana.avif" alt="Banana" class="h-32 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300">
                          <button class="absolute top-2 right-2 bg-white border border-blue-600 text-blue-600 rounded-lg w-8 h-8 flex items-center justify-center shadow-sm hover:bg-blue-50 transition-colors z-10">
@@ -355,7 +352,8 @@
         <section>
             <h2 class="text-xl font-bold tracking-tight text-gray-900 mb-6">Grocery & Kitchen</h2>
             
-            <div class="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 lg:gap-6">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-4 lg:gap-6">
+
                 
                 <!-- Category 1 -->
                 <div class="flex flex-col items-center gap-3 group cursor-pointer">
@@ -428,7 +426,7 @@
     <!-- Footer -->
 
   <footer class="bg-[#0b0f14] text-gray-400">
-  <div class="max-w-7xl mx-auto px-6 py-16">
+  <div class="w-full lg:max-w-7xl mx-auto px-6 py-16">
 
     <!-- Top Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-10">
@@ -638,7 +636,7 @@
           the closest Instamart store
         </h2>
 
-        <div class="flex gap-3 mb-5 min-w[450px] sm:w-1/2 ">
+        <div class="flex gap-3 mb-5 min-w-[450px] sm:w-1/2 ">
           <div class="relative flex-1">
             <input type="text" placeholder="Search for an area or address" class="w-full border rounded-xl py-3 px-4 pr-10 focus:outline-none"/>
             <span class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
